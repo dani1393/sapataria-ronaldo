@@ -1,0 +1,61 @@
+.box-sapatos{
+    background-color: rgb(104, 84, 66);
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-cintos {
+    background-color: rgb(104, 84, 66);
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-bolsas {
+    background-color: rgb(104, 84, 66);
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    list-style-type: center;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    margin: 10px;
+    outline: rgb(104, 84, 66) 10px;
+    margin: auto;  
+    background-color: rgb(168, 168, 168);
+}
+
+
+.content-box-navegacao {
+
+
+}
