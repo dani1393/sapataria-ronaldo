@@ -8,35 +8,53 @@
 
 body {
    font-size: 100%;
-   background-image: linear-gradient(to right, rgb(53, 42, 26) , rgb(94, 51, 26));
+   background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(139, 139, 139));
    text-decoration-color: blanchedalmond;
    text-decoration-line: initial;
 
 }
-.menu {
-    
-    border-bottom: 1px;
-    display:flex;
+
+.titulo-principal{
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    list-style-type: none;
-    font-size: 15px;
-    margin: 10px;
-    outline: rgb(104, 84, 66) 10px;
-    margin-bottom: auto;
-    color: bisque;
+    justify-content: center;
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Source Serif Pro', serif;
+    color:rgb(104, 84, 66)
+    
+
+}
+
+.subtitulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Source Serif Pro', serif;
+    color:rgb(104, 84, 66)
+
+}
+.main {
+    border-top: 0.4px solid currentColor;
+} 
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    background-color: none;
+    padding: 16px;
+    height: 30px;
 }
 
 .titulo{
     display: flex;
     flex-direction: left;
     align-items: flex-end;
-    color: beige;
+    color: rgb(104, 84, 66) 10px;
 }
 
 .sapatos{
-    color: beige;
+    color: rgb(104, 84, 66) 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -44,11 +62,40 @@ body {
 
 }
 
+.artigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color:rgba(0, 0, 0, 0.603);
 
-footer{
-    background-image: linear-gradient(rgb(94, 51, 26), rgb(97, 97, 97));;
 }
 
 
+footer{
+    border-top: 0.3px solid currentColor;
+}
 
+.box1 {
+    width: 200px;
+    height: 200px;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+}
+
+.cintos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.bolsas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
