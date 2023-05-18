@@ -53,15 +53,6 @@ body {
     color: rgb(104, 84, 66) 10px;
 }
 
-.sapatos{
-    color: rgb(104, 84, 66) 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: left;
-
-}
-
 .artigo {
     display: flex;
     flex-direction: column;
@@ -74,34 +65,69 @@ body {
 
 footer{
     border-top: 0.3px solid currentColor;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap:20px;
+
 }
 
 .box1 {
     width: 200px;
     height: 200px;
+    border-radius: 20px;
 }
 
 .box2 {
     width: 200px;
     height: 200px;
+    border-radius: 20px;
 }
 
 .box3 {
     width: 200px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
+.sapatos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    background-size: auto;
+    background-color: rgba(0, 0, 0, 0.384);
+
+}
 .cintos {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: 30px;
+    background-size: auto;
+    background-color: rgba(0, 0, 0, 0.384);
 }
 .bolsas {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: 40px;
 }
 
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 20px;
+}
+
+.entrega {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
