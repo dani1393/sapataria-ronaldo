@@ -14,6 +14,18 @@ body {
 
 }
 
+#menu {
+    color: brown;
+    font-family:'Source Serif Pro', serif; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header {
+    margin-top: 0.4px solid currentColor;
+}
+
 .titulo-principal{
     display: flex;
     flex-direction: row;
@@ -37,14 +49,6 @@ body {
 .main {
     border-top: 0.4px solid currentColor;
 } 
-
-.menu {
-    display: flex;
-    flex-direction: row;
-    background-color: none;
-    padding: 16px;
-    height: 30px;
-}
 
 .titulo{
     display: flex;
@@ -130,4 +134,9 @@ footer{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+}
+.empresario {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
 }
